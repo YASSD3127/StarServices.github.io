@@ -1,0 +1,215 @@
+/* ===========================================================================================
+                                          Bootstrap Media Queries
+=========================================================================================== */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* OK */
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* Mobile Menu */
+    .navbar {
+
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left !important;
+    }
+
+    .star-nav-wrapper {
+        padding: 0;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Mobile Menu */
+    .navbar {
+
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left !important;
+    }
+
+    .star-nav-wrapper {
+        padding: 0;
+    }
+
+    /* bg-Diagonal */
+    #about-bg-diagonal {
+        border-left: 0 !important;
+        border-top: 0 !important;
+        width: 100% !important;
+        height: 350px !important;
+
+    }
+
+    #about-content-box {
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+    /* Stats */
+    .stats-item {
+        padding: 20px 0;
+    }
+
+    /* footer */
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+
+    /* Mobile Menu */
+    .navbar {
+
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+
+    .navbar-nav {
+        float: left !important;
+    }
+
+    .star-nav-wrapper {
+        padding: 0;
+    }
+
+    /* Home */
+    #home-heading h2 {
+        font-size: 40px !important;
+    }
+
+    /* Buttons */
+    .btn-general {
+        padding: 10px 22px !important;
+        font-size: 14px !important;
+    }
+
+    /* bg-Diagonal */
+    #about-bg-diagonal {
+        border-left: 0 !important;
+        border-top: 0 !important;
+        width: 100% !important;
+        height: 350px !important;
+
+    }
+
+    #about-content-box {
+        width: 100% !important;
+        height: 350px !important;
+    }
+
+    /* Testimonials */
+
+    .testimonials blockquote {
+        padding: 6px 50px !important;
+    }
+
+    .testimonials blockquote::before {
+        left: 10px !important;
+    }
+
+    .testimonials blockquote::after {
+        right: 30px !important;
+    }
+
+    .testimonials blockquote p {
+        font-size: 14px !important;
+    }
+
+    /* Stats */
+    .stats-item {
+        padding: 20px 0 !important;
+    }
+
+    /* footer */
+    #footer-copyrights {
+        text-align: center !important;
+    }
+}
+
+/* Small devices */
+@media (max-width: 480px) {
+
+    /* navigation */
+    .navbar-brand p {
+        color: white !important;
+        font-size: 30px !important;
+        font-weight: 700 !important;
+        position: absolute !important;
+        left: 50px;
+    }
+
+    .navbar-header {
+        width: 130%;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* navigation */
+    .navbar-brand p {
+        color: white !important;
+        font-size: 30px !important;
+        font-weight: 700 !important;
+        position: absolute !important;
+        left: 50px;
+    }
+
+    .navbar-header {
+        width: 180%;
+    }
+
+    .navbar-header navbar-toggle icon-bar {
+        position: relative !important;
+        right: 0 !important;
+
+    }
+
+    .service-item-icon i {
+        width: 58px !important;
+        height: 58px !important;
+        padding: 7px !important;
+    }
+
+    .service-item-title h2 {
+        font-size: 17px !important;
+    }
+
+    #about-content-box {
+        margin-top: 40px;
+    }
+
+    /* Testimonials */
+    .testimonials img {
+        max-width: 80px !important;
+    }
+
+    .testimonials blockquote {
+        padding: 6px 30px !important;
+    }
+
+    .testimonials blockquote::before {
+        left: 7px !important;
+    }
+
+    .testimonials blockquote::after {
+        right: 0px !important;
+    }
+}
